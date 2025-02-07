@@ -1,0 +1,445 @@
+.right{
+    display: flex;
+    gap: 80px;
+    
+    
+  
+    
+
+
+}
+.hm:hover{
+    color: blue;
+    transform: scale(1.25);
+}
+.ab:hover{
+    color: blue;
+    transform: scale(1.25);
+
+}
+.pr:hover{
+    color: blue;
+    transform: scale(1.25);
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+body {
+    background-color: RGB(18, 17, 22);
+    color: aliceblue;  /* Replace with your desired color */
+  }
+  
+*{
+    margin: 0;
+    
+}
+.nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   
+  
+    font-weight: 400;
+    font-size: xx-large;
+    color:whitesmoke;
+    background-color:#1e1e1e;
+    margin: 0;
+    height: 80px;
+    position:-webkit-sticky; /* For Safari */
+    position: sticky;
+
+    
+    
+}
+.intro{
+    
+  display: grid;
+  padding-top: 80px;
+  justify-content: center; /* Horizontally centers the item */
+       /* Vertically centers the item */
+  
+    
+    
+}
+#Hi{
+    padding-left: 50px;
+
+}
+.stack{
+    justify-content: center;
+    display: grid;
+    font-size: 50px;
+    font-weight: 900;
+    padding-top: 20px;
+    
+}
+.obj{
+    padding-top: 20px;
+    padding-left: 180px;
+    padding-right: 180px;
+    text-align: center;
+    font-size: x-large;
+    margin: 0 auto;
+
+    
+
+}
+.links{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 30px;
+    animation: moveUpDown 2s infinite;
+
+}
+.btn{
+    border: 1px solid gray;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+.btn:hover{
+    box-shadow: 0 4px 6px rgba(224, 42, 42, 0.1);
+    
+    background-color: gray;
+
+    
+    
+  }
+.linkdin:hover{
+    box-shadow: 0 4px 6px rgba(224, 42, 42, 0.1);
+    
+    cursor: pointer;
+
+    
+    
+  }
+.home{
+    color:black;
+}
+
+
+  .r2{
+
+     animation-delay: 1s;
+    @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+
+
+  }
+}
+  .education-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .education-section .education-entry > div {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  .education-section .education-entry > div:nth-child(1) {
+    animation-delay: 0.5s;
+  }
+  
+  .education-section .education-entry > div:nth-child(2) {
+    animation-delay: 1s;
+  }
+  
+  .education-section .education-entry > div:nth-child(3) {
+    animation-delay: 2.s;
+  }
+  
+  .education-section .education-entry > div:nth-child(4) {
+    animation-delay: 3s;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+.home{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 80px;
+    background-color: blanchedalmond;
+
+
+}
+.homecontent{
+    display: flex;
+    justify-content: center;
+}
+.l2 {
+    
+    transition: transform 8.s ease, opacity 0.5s ease;
+    padding-top: 50px;
+    padding-right: 80px;
+
+    border-radius: 3px;
+}
+
+.l2 :hover{
+    
+    
+    transform: scale(1.1);
+    opacity: 0.8;
+      
+}
+.r2{
+    display: inline;
+    padding-top: 70px;
+    font-size: 15px;
+    
+    
+
+}
+.line{
+    height: 20vh;
+    width: 8px;
+    background-color: #666;
+   
+}
+
+.education-section {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.education-section {
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    border-radius: 8px;
+    
+}
+
+
+.education-section::before {
+    content: '';
+    position: absolute;
+    margin-top: 3px;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height:90%;
+    background-color: #f5efefee; /* Color of the vertical line */
+}
+
+
+
+
+.education-section h2 {
+    font-size: 24px;
+    color: #f7f5f5;
+    margin-bottom: 20px;
+    
+}
+
+
+.education-entry {
+    margin-bottom: 20px;
+    padding: 15px;
+
+    border-radius: 6px;
+    
+}
+
+
+.education-entry .duration {
+    margin-left: 40px;
+    background-color: #4CAF50;  
+    color: white;               
+    font-size: 24px;            
+    font-weight: bold;          
+    padding: 10px 30px;         
+    border-radius: 0 30px 90px 0;
+    display: inline-block;   
+}
+.education-entry .duration::after {
+    
+    
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: 100px;
+    width: 10px;
+    height: 10px;
+    background-color: #f51616dc; 
+    border-radius: 50%; 
+    
+}
+.education-entry #dot2::before {
+    
+    
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: 350px;
+    width: 10px;
+    height: 10px;
+    background-color: #f51616dc; 
+    border-radius: 50%; 
+    
+}
+.education-entry #dot2::before {
+    
+    
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: 270px;
+    width: 10px;
+    height: 10px;
+    background-color: #f51616dc; 
+    border-radius: 50%; 
+    
+}
+.education-entry #dot3::before {
+    
+    
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: 400px;
+    width: 10px;
+    height: 10px;
+    background-color: #f51616dc; 
+    border-radius: 50%; 
+    
+}
+
+
+
+
+/* Styling for the degree */
+.education-entry .degree {
+    font-size: 18px;
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Styling for the university */
+.education-entry .university {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+/* Styling for the location */
+.education-entry .location {
+    font-size: 14px;
+    color: #666;
+}
+.skills{
+    font-size: 40px;
+    background-color: antiquewhite;
+    color: #0d1a0d;
+    
+
+}
+.skilslist{
+    margin-top: 100px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.project {
+    font-size: 40px;
+    margin-top: 100px;
+    background-color: antiquewhite;
+    color: #0d1a0d;
+    height: 100px;
+}
+
+.prolist {
+    padding-left: 70px;
+    display: flex;
+    gap: 50px;
+    height:;
+    margin-top: 200px;
+   
+}
+
+.project1, .project2, .project3, .project4 {
+    width: 300px; /* Adjust the width as needed */
+    border: none;
+    padding: 10px;
+    text-align: center; 
+    background-color: #1a251a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 255, 0, 0.5);
+    transition: transform 1.5s 
+    
+}
+.project4:hover{
+   box-shadow: none;
+}
+.project2:hover{
+    box-shadow: none;
+}
+.project3:hover{
+    box-shadow: none;
+}
+
+.project1:hover{
+    box-shadow:none;
+}
+
+
+.proimg {
+    align-self: flex-start;
+    width: 100%;
+    height: auto;
+    border: 1px solid blanchedalmond;
+    border-radius: 60px;
+    opacity: 80%;
+}
+
+.procon {
+    align-self: flex-start;
+    color: white; /* Adjust text color for better contrast against the black background */
+}
+.footer{
+    margin-top: 400px;
+    background-color: #080b17;
+    height: 200px;
+
+}
+.shukla{
+    font-size: xx-large;
+    
+}
+.name:hover{
+    color: #4CAF50;
+}
+.sk:hover{
+    color: blue;
+}
+
